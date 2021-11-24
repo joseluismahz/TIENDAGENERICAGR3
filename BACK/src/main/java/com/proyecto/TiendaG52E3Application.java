@@ -39,6 +39,14 @@ public class TiendaG52E3Application {
 					.build();
 		}
 		
+		public Docket usuariosApi() {
+			return new Docket (DocumentationType.SWAGGER_2)
+					.select()
+					.apis(RequestHandlerSelectors.any())
+					.paths(PathSelectors.any())
+					.build();
+		}
+		
 	public static void main(String[] args) {
 		SpringApplication.run(TiendaG52E3Application.class, args);
 	}
