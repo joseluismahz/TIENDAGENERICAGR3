@@ -18,6 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.proyecto.models.ProductoDTO;
 import com.proyecto.repositories.IProductoDAO;
 
+//comentario de prueba
+
 @RestController
 @CrossOrigin(origins = "*", methods = {RequestMethod.POST, RequestMethod.GET, RequestMethod.PUT, RequestMethod.DELETE})
 @RequestMapping("/api/db_productos")
